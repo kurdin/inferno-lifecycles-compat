@@ -44,7 +44,7 @@ componentWillMount.__suppressDeprecationWarning = true;
 componentWillReceiveProps.__suppressDeprecationWarning = true;
 componentWillUpdate.__suppressDeprecationWarning = true;
 
-export function polyfill(Component) {
+function polyfill(Component) {
   var prototype = Component.prototype;
 
   if (!prototype) {
@@ -151,3 +151,5 @@ export function polyfill(Component) {
 
   return Component;
 }
+
+export { polyfill };

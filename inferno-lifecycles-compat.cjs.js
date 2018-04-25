@@ -1,3 +1,7 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -44,7 +48,7 @@ componentWillMount.__suppressDeprecationWarning = true;
 componentWillReceiveProps.__suppressDeprecationWarning = true;
 componentWillUpdate.__suppressDeprecationWarning = true;
 
-export function polyfill(Component) {
+function polyfill(Component) {
   var prototype = Component.prototype;
 
   if (!prototype) {
@@ -151,3 +155,5 @@ export function polyfill(Component) {
 
   return Component;
 }
+
+exports.polyfill = polyfill;
