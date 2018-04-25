@@ -5,7 +5,7 @@
   "main": "inferno-lifecycles-compat.cjs.js",
   "module": "inferno-lifecycles-compat.es.js",
   "license": "MIT",
-  "repository": "kurdin/react-lifecycles-compat",
+  "repository": "kurdin/inferno-lifecycles-compat",
   "scripts": {
     "build": "rollup -c",
     "lint": "eslint index.js",

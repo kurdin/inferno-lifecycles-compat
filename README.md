@@ -1,4 +1,4 @@
-# react-lifecycles-compat
+# inferno-lifecycles-compat
 
 ## What is this project?
 
@@ -11,10 +11,10 @@ Typically, this type of change would require third party libraries to release a 
 First, install the polyfill from NPM:
 ```sh
 # Yarn
-yarn add react-lifecycles-compat
+yarn add inferno-lifecycles-compat
 
 # NPM
-npm install react-lifecycles-compat --save
+npm install inferno-lifecycles-compat --save
 ```
 
 Next, update your component and replace any of the deprecated lifecycles with new ones introduced with React 16.3. (Refer to the React docs for [examples of how to use the new lifecycles](https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html).)
